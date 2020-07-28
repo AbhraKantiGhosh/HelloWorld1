@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    
+
+        <h2>Reading JSON object using js</h2>
+        <p id="pData"></p>
+        <script>
+            var jsonData =
+                '{"fName":"abhra","lName":"ghosh","isAlive":true,"age":23}';
+var contact=JSON.parse(jsonData);
+document.getElimentById("pData");
+innerHTML=contact.fName+"<br>"+contact.lName+"<br>"+contact.age;
+        </script>
+   
+
+</body>
+</html>
